@@ -20,7 +20,7 @@ export default function HomePage() {
     ]
     return (
         <div>
-            <Header />
+            
             <div className='section-one'>
                 <div className='conteiner'>
                     <div className='block-left'>

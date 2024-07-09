@@ -19,10 +19,10 @@ export default function Header() {
 
             </div>
             <div className='header-bottom'>
-                <NavLink className='Link'> Glavnaya</NavLink>
-                <NavLink className='Link'>Glavnaya2</NavLink>
-                <NavLink className='Link'>Katalog</NavLink>
-                <NavLink className='Link'>Katalog 2</NavLink>
+                <NavLink to="/" className='Link'> Glavnaya</NavLink>
+                <NavLink  to="page-two" className='Link'>Glavnaya2</NavLink>
+                <NavLink to="product-listing" className='Link'>Katalog</NavLink>
+                <NavLink  to="product-listing-two" className='Link'>Katalog 2</NavLink>
             </div>
            
         </div>
