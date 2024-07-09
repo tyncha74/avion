@@ -1,0 +1,13 @@
+
+.card >h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+@media( max-width:500px){
+    .card img{
+        width: 170px;
+    }
+}
