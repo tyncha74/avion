@@ -35,10 +35,10 @@ export default function HomePage2 ()
 
             ) : ''
         }</div>
-         <div className='two'>
+         <div className='four'>
                 <h1>What makes our brand different</h1>
 
-                <div className='section-two'>
+                <div className='section-four'>
                     <div  style={{backgroundColor:"#f9f9f9", padding:"30px"}} className='block-one'>
                         <TbTruckDelivery size={30} />
                         <h2>Next day as standard</h2>

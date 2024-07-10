@@ -35,3 +35,43 @@
     right: 5px;
     top: 5px;
 }
+
+.four{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.four .section-four{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 120px;
+    gap: 40px;
+}
+
+.four .block-one{
+    display: flex;
+    flex-direction: column;
+}
+.four .block-one > h2{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+@media(max-width:500px){
+    .four .block-right{
+        display: none;
+    }
+    .four .block-left{
+        width: 100%;
+    }
+    .four .section-four{
+        flex-direction: column;
+        padding:0 20px ;
+    }
+
+}
