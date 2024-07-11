@@ -49,3 +49,26 @@
     display: flex;
     gap: 40px;
 }
+@media(max-width:500px){
+    .block-top{
+        flex-direction: column;
+
+    }
+    .footer{
+        padding: 25px;
+    }
+    .box-left{
+        flex-wrap: wrap;
+       
+    }
+    .box-right input{
+        width: 300px;
+    }
+    .block-bottom div{
+        display: none;
+    }
+    .block-bottom {
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -30,10 +30,10 @@ export default function Header() {
 
             </div>
             <div className={`header-bottom ${menuActive ? 'active' : ''}`}>
-                <NavLink to="/" className='Link'> Glavnaya</NavLink>
-                <NavLink  to="page-two" className='Link'>Glavnaya2</NavLink>
-                <NavLink to="product-listing" className='Link'>Katalog</NavLink>
-                <NavLink  to="product-listing-two" className='Link'>Katalog 2</NavLink>
+                <NavLink  onClick={toggleMenu} to="/" className='Link'> Glavnaya</NavLink>
+                <NavLink onClick={toggleMenu} to="page-two" className='Link'>Glavnaya2</NavLink>
+                <NavLink onClick={toggleMenu} to="product-listing" className='Link'>Katalog</NavLink>
+                <NavLink  onClick={toggleMenu} to="product-listing-two" className='Link'>Katalog 2</NavLink>
             </div>
            
         </div>
